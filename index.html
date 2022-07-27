@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/MAPADEVWEEK/src/imagens/pokebola.png">
+    <title> Projeto Pokemon Slider - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/function.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <h1><img class="icone" src="./src/imagens/pokebola.png" alt="pokebola" /> MapaDev Week</h1>
+    </header>
+
+    <main>
+        <button class="seta" onclick="volta_pkm()"><img class="inverter" src="./src/imagens/seta.png"
+                alt="seta voltar"></button>
+
+        <ul>
+            <li>
+                <div class="carta" id="Pikachu">
+                    <div class="Cabecalho">
+                        <h2 class="Texto">Pikachu</h2>
+                        <p class="HP">HP 300</p>
+                    </div>
+                    <div class=Pokemon>
+                        <img src="./src/imagens/pikachu.png" alt="Pikachu" />
+                    </div>
+                    <div class="Informacoes">
+                        <h3 class="Tipo"> Descrição</h3>
+                        <p class="Descricao"> Pikachu é um Pokémon tipo elétrico. Ele é a forma evoluida de Pichu quando
+                            chega num certo Ponto de amizade com o treinador e evolui para Raichu quando esta segurando
+                            uma Thunder Stone. Pikachu é um Pokémon roedor meio gordinho, com o pêlo amarelo em todo o
+                            seu corpo. As orelhas de Pikachu são longas e chegam a um ponto com pontas pretas. Ele tem
+                            uma boca pequena, que se assemelha a um lado tres, tem olhos negros com os alunos brancos e
+                            dois círculos vermelhos em suas bochechas. Seus antebraços são curtos e um pouco atarracado,
+                            com cinco dedos em cada "mão", e seus pés têm três dígitos. Ele tem duas listras marrons em
+                            suas costas, e sua cauda é em forma de raio Zigzag de estilo, com um pedaço de pele marrom
+                            na base da cauda. Embora seja tecnicamente um quadrúpede , em várias ocasiões tem sido
+                            mostrado para ser capaz de ficar de pé e andar ereto sobre as patas traseiras. Para além da
+                            sua evolução e pré-evolução, ele pode estar relacionado com Plusle, Minun, Pachirisu e
+                            Emolga devido às suas muitas semelhanças físicas e devido ao fato de que eles circulam
+                            electricidade através dos seus corpos. Além disso, pode ser um parente distante para Marril
+                            e Cinccino devido às suas características físicas semelhantes.
+
+                    </div>
+                </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="carta hidden" id="Charizard">
+                    <div class="Cabecalho">
+                        <h2 class="Texto">Charizard</h2>
+                        <p class="HP">HP 800</p>
+                    </div>
+                    <div class=Pokemon>
+                        <img src="./src/imagens/charizard.png" alt="Charizard" />
+                    </div>
+                    <div class="Informacoes">
+                        <h3 class="Tipo">Descrição</h3>
+                        <p class="Descricao">
+                            Charizard é um Pokémon do tipo Fogo e Voador. Ele é a forma evoluída de Charmeleon, ele
+                            tambem é a forma final de Charmander.Ao contrário de suas pré-evoluções, tem asas que lhe
+                            permite voar, é um pokemon muito parecido com um dragão. Como suas formas anteriores, é
+                            bípede e tem uma longa cauda com uma chama que só se apaga quando ele morre. Tem três garras
+                            extremamente afiadas, dígitos distintos, um longo pescoço, e dois chifres salientes na parte
+                            de trás de sua cabeça. A frente de suas duas asas é azul-petróleo, enquanto a traseira é
+                            laranja como a maior parte de seu corpo. Embora pouco visível, a iris de Charizard é azul de
+                            cor clara. Sua barriga e parte inferior das patas são de cor creme.
+                            Como mega Charizard X, sua pele fica preta com um lado azul da mandíbula inferior até a
+                            ponta da cauda. Ele ganha duas curvas, pontos azuis em cada ombro e as pontas de seus
+                            chifres ficar azul também. Agora, há dois pontos curvados na parte de trás do seu pescoço.
+                            As bordas das suas asas são divididos em seções grandes, arredondadas e da articulação tem
+                            um pico curvado sobre ele. Mega Charizard X respira chamas azuis os lados de sua boca, e a
+                            chama em sua cauda agora queima azul com o aumento do calor também.
+                            Como mega Charizard Y, este Pokémon cresce um terceiro chifre na parte de trás de sua cabeça
+                            entre os dois original, que agora são mais curtos. As pequenas asas desenvolver em seus
+                            pulsos, enquanto os em suas costas se tornam maiores e agora têm bordas irregulares. Existem
+                            várias espinhas ao longo do comprimento da cauda. Ele mantém o seu creme de baixo, mas agora
+                            se estende até o seu maxilar inferior. Mega Charizard Y é dito ter incrível proeza de vôo,
+                            podendo alcançar alturas incríveis.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="carta hidden" id="Mewtwo">
+                    <div class="Cabecalho">
+                        <h2 class="Texto">Mewtwo</h2>
+                        <p class="HP">HP 1200</p>
+                    </div>
+                    <div class=Pokemon>
+                        <img src="./src/imagens/mewtwo.png" alt="Mewtwo" />
+                    </div>
+                    <div class="Informacoes">
+                        <h3 class="Tipo">Descrição</h3>
+                        <p class="Descricao"> Mewtwo é uma criatura com uma postura humanóide, mas tem algumas
+                            características felinas. O corpo de Mewtwo é cinzento-roxo e uma cauda longa totalmente da
+                            cor roxa. Mewtwo tem três dígitos circulares em cada apêndice. Tem uma ponta no interior de
+                            cada um dos pés, como muitos primatas do mundo real, bem como duas outras que ficam na
+                            frente. Ele tem os olhos roxos e duas orelhas curtas. Uma das características mais notáveis
+                            ​​de Mewtwo é o tubo que se estende desde a parte de trás do seu crânio à sua coluna
+                            vertebral. É mais provável que uma medula espinhal secundária, ou um sistema de nervos,
+                            permitindo um aumento do volume de sangue e transmissão sensorial para o cérebro, aumentando
+                            os seus poderes psíquicos.
+                            Como Mega Mewtwo X ele fica maior e mais volumoso do que seu estado normal. Os chifres na
+                            cabeça são mais longos, mais fino, e têm apontado dicas. Seus olhos estão agora a luz azul,
+                            e tem grandes crescimentos roxo sobre seus ombros. Seus antebraços e coxas têm vários cumes
+                            elevados, e os dígitos são agora mais longa e mais fina. A cauda é ligeiramente mais curta
+                            do que anteriormente e tem uma ponta enrolada.
+                            Em comparação, Mega Mewtwo Y é menor, mais leve e perde sua cauda longa. No entanto, ela
+                            cresce um apêndice longo, roxo com uma ponta enrolada na parte de trás de sua cabeça que é
+                            semelhante ao rabo de sua forma anterior. Tem dois picos pontiagudos em sua cabeça e uma
+                            estrutura semi-anel sobre sua cabeça. Seus olhos estão agora vermelho e um pouco maior. Um
+                            cume acidentado semelhante a um esterno substitui a estrutura peitoral em seu peito. Os
+                            dígitos em suas mãos e pés estão agora roxo e mais bulboso, eo dedo médio é mais longo do
+                            que os outros são.
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+
+        <button class="seta" onclick="avanca_pkm()"><img src="./src/imagens/seta.png" alt="seta avançar"></button>
+    </main>
+
+</body>
+
+</html>
